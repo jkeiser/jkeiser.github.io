@@ -3,28 +3,6 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I have been a coder since I first picked up an Apple IIc clone in 1988, grabbed a book with code for an adventure game from the library, and adapted it over to paper during English and History classes. Since then I've worked on search engines and distributed storage, compilers and network protocols, browsers and websites. I've been a developer, a tester, a project manager, and I've run a company. You might summarize my career as "I build the internet."
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Right now I work for [Chef](https://chef.io), on another new thing to me--setting up and configuring distributed systems. The work of getting machines, networking them together, installing and upgrading and orchestrating and oh my! It's a thing I've always been bad at, and it's critical so I'm happy for the opportunity to try to make the world better for, well, me. With any luck, other people have the same problems I did :)
