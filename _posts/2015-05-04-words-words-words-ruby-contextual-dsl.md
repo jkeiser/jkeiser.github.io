@@ -1,30 +1,34 @@
 ---
 layout: post
-title: 'Words, Words, Words: Ruby Contextual DSL'
+title: 'Words, Words, Words: DSL in Ruby'
 tags:
 - chef
 - ruby
 - chef dsl deep dive
 ---
 
-I've been monkeying with the Chef Ruby DSL lately, so I thought I'd try my hand at explaining what's going on.  Today I'll explain how a clean, contextual DSL like Chef's is made.
+You have a program, and you want your users to be able to read and write it easily. You need the power, portability and flexibility, but still has to be easy to read ... you need
 
-But let's start from the basics. (Because it's always about the basics.) We're here to write good, usable software that gets a job done. Usable software lets users tell the computer something that already makes sense to *them*, and then does what they mean. A DSL is all about doing that, in text (it is a language, after all).
+A good Ruby DSL lets you drop a lot of the words and punctuation that normally get in the way of reading and writing a DSL, without having to leave the power and flexibility of a general-purpose language that can do anything.  But there are a fair few tricks to using Ruby to *make* such a DSL. I'll try to keep to a minimum of required Ruby knowledge, and explain why the DSL is the way it is, and how it's done.
 
-For Chef, the DSL describes the things you work with when you want to deploy and operate an application that runs on many machines. `package`, `service` `file`, `machine`, `load_balancer` ... all a part of the deal.
-
-You can do things like this:
+Chef has a relatively good (and common) example of a DSL, in its *recipe DSL*:
 
 ```ruby
-## create a machine and deploy my web application using a "recipe"
-machine 'mario' do
-  recipe 'mywebapp'
-end
 ## Make a file with Hello World in it
 file '/Users/jkeiser/x.txt' do
   content 'Hello World'
 end
+## create a machine and deploy my web application using a "recipe"
+machine 'mario' do
+  recipe 'mywebapp'
+end
+## install package 'apache'
+package 'apache' do
+  version '~> 2'
+end
 ```
+
+Since that's the one I know best, that's where I'll focus first; but the techniques here are nearly universal to DSLs.
 
 <div id="toc"></div>
 
