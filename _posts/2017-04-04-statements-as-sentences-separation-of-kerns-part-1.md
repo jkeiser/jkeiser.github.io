@@ -1,7 +1,13 @@
-Statements as Sentences
-=======================
+---
+layout: post
+title: 'Statements as Sentences'
+tags:
+    - separation of kerns
+    - whitespace
+    - language design
+---
 
-This is part 1 of Separation of Kerns, a series on language design choices around spacing. Other parts:
+This is part 1 of [Separation of Kerns]({% post_url 2017-04-04-separation-of-kerns-introduction %}), a short discussion of language design choices around spacing. Other parts:
 
 * [Introduction]({% post_url 2017-04-04-separation-of-kerns-introduction %})
 * [Part 1: Statements as Sentences]({% post_url 2017-04-04-statements-as-sentences-separation-of-kerns-part-1 %})

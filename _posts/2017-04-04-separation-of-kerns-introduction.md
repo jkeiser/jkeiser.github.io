@@ -1,15 +1,12 @@
 ---
 layout: post
-title: 'Separation of Kerns Introduction: Significant Whitespace'
+title: 'Separation of Kerns: Significant Whitespace'
 tags:
     - whitespace
     - language design
 ---
 
-Separation of Kerns: Significant Whitespace
-===========================================
-
-This is the introduction to Separation of Kerns, a series on language design choices around empty space. Other parts:
+This is the introduction to [Separation of Kerns]({% post_url 2017-04-04-separation-of-kerns-introduction %}), a short discussion of language design choices around empty space. Other parts:
 
 * [Introduction]({% post_url 2017-04-04-separation-of-kerns-introduction %})
 * [Part 1: Statements as Sentences]({% post_url 2017-04-04-statements-as-sentences-separation-of-kerns-part-1 %})
