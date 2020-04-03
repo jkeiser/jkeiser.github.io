@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "John Keiser"
+description = "jkeiser's blog."
+theme = "min_night"
+disqusShortname = ""
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[params]
+    author = "John Keiser"
+    description = "jkeiser's blog."
+    logo = "headshot-232x310.png"
+    twitterAuthor = "@jkeiser2"
+    githubUsername = "jkeiser"
+    accent = "#386890" # dark colors do best
+    backgroundColor = "#f5f5f5"
+    font = "Mina" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "lakeside-light" # make this match accent
+    highlightLanguages = ["r", "bash", "go"]
+
+# adjust these as you see fit
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+# [[menu.main]]
+#     url = "/project/"
+#     name = "Projects"
+#     weight = 3
+    
+[[menu.main]]
+    url = "/tags/"
+    name = "Tags"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:john@johnkeiser.com"
+    name = "far fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/jkeiser"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/jkeiser2/"
+    name = "fab fa-twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/john-keiser-81618532/"
+    name = "fab fa-linkedin"
+    weight = 4
