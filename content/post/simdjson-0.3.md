@@ -1,11 +1,8 @@
 ---
-title: "Simdjson 0.3: My Contribution to Reducing Global WArming"
-description: "We just released simdjson 0.3, a ridiculously fast
-JSON parser written in C++. And I do mean ridiculously fast: it's 2.5x faster than the fastest
-parser out there!"
+title: "Simdjson 0.3: My Contribution to Reducing Global Warming"
 date: 2020-04-01
 tags: ["simdjson", "c++"]
-draft: true
+draft: false
 ---
 
 # simdjson 0.3: My Contribution to Reducing Global Warming
