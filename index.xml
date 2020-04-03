@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Keiser</title>
+    <link>/</link>
+    <description>Recent content on John Keiser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simdjson 0.3: My Contribution to Reducing Global Warming</title>
+      <link>/2020/04/01/simdjson-0.3-my-contribution-to-reducing-global-warming/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/01/simdjson-0.3-my-contribution-to-reducing-global-warming/</guid>
+      <description>simdjson 0.3: My Contribution to Reducing Global Warming We just released simdjson 0.3, a ridiculously fast JSON parser written in C++. And I do mean ridiculously fast: it&amp;rsquo;s 2.5x faster than the fastest parser out there!
+simdjson 0.3 improves a lot over 0.2:
+ Drastically simplifies the API Improves performance by another 15% Provides simple, flexible error handling whether you use exceptions or error codes Includes batch parsing for multiple documents in one file/buffer (ndjson) at 2-4x the normal speed Parses floating-point numbers precisely, with no loss in performance Adds a quickstart, usage docs / tutorials, and API docs  The source has also been substantially refactored for maintainability and code reuse.</description>
+    </item>
+    
+  </channel>
+</rss>
