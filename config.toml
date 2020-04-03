@@ -6,6 +6,7 @@ theme = "min_night"
 disqusShortname = ""
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
+publishdir = "jkeiser.github.io"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
